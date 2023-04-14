@@ -1,0 +1,78 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #ffffffcc;
+}
+
+.navegador{
+  background: linear-gradient(57deg, yellow, #8E24AA, #6fc728);
+  height: 30px;    
+  text-align: center; 
+  margin: 1px;     
+  width: 99%;
+	left: 5px;
+	top: 0;
+	position: fixed;  
+}
+
+.menu{
+  color: #6fe70c;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.7;   
+  /*falta separar las palabras*/    
+}
+
+.lista{
+  position: fixed;
+  background-color: #ffffffcc;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  list-style-type: none;    
+  margin: 4px;      
+  width: 99%;
+	bottom: 0;	
+}
+
+
+/*+7+7+7++7+7+7+7++7+7+7+7+7+7+7+7++7+77++7+7+7++7+7+7+7+7+7++7+77++7+7+7++7+7+7+7+7+7++7+77++7+7+7++7+7+7+7+7+7++7+77++7+7+7++7+*/
+
+/*Ejemplo_1*/
+.item1 { grid-area: header; }
+.item2 { grid-area: meenu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'meenu main main main right right'
+    'meenu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: #ffffffcc;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+/*Ejemplo_2*/
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item2 {
+  background-color: #ffffffcc;
+  border: 1px solid #000000cc;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
