@@ -1,12 +1,12 @@
-CSS_Grid-Layout Grupo_04
+## CSS_Grid-Layout: Grupo_04
 Este repositorio ha sido creado con el fin explicar el uso de CSS Grid Layout en la clase de Introduccion a la programacion.
 
-INTEGRANTES:
-Nestor Fabian Zapata
-Andres Camilo Arroyave
-Juan Felipe Acevedo
-Jhony Alexis Martinez
-James Bolaños
+INTEGRANTES: <br>
+Nestor Fabian Zapata <br>
+Andres Camilo Arroyave <br>
+Juan Felipe Acevedo <br>
+Jhony Alexis Martinez <br>
+James Bolaños <br>
 
-PROFESOR: 
+PROFESOR: <br>
 Alberiro Muriel (CESDE)
