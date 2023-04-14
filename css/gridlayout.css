@@ -1,6 +1,7 @@
 body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: #ffffffcc;
+  
 }
 
 .navegador{
@@ -75,4 +76,19 @@ body{
   padding: 20px;
   font-size: 30px;
   text-align: center;
+}
+
+.table{
+  border: 3px collapse black;
+  height: 100px;
+  width: 980px;
+}
+
+.cara {
+  height: 20px;
+  width: 200px;
+}
+
+.reto{
+
 }
